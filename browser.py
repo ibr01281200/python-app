@@ -11,9 +11,6 @@ root.config(background='#4C4646')
 def search():
     t=e.get()
     webbrowser.open(t)
-
-
-
 #=========
 lb1 = Label(root,text='Web Browser',fg='white',bg='black',font=('Courier',12,'bold'))
 lb1.pack(fill=X)
@@ -23,13 +20,6 @@ e.pack()
 
 btn=Button(root,text='Search',activebackground='black',activeforeground='white',fg='green' ,font=('Courier',14,'bold'),command=search)
 btn.pack()
-
-
-
-
-
-
-
 root.mainloop()
 
 
